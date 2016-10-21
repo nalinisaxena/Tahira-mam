@@ -2,7 +2,13 @@ import java.util.*;
 
 class Employe
 {
-
+ Employe()
+ {
+  emp_id=100;
+  emp_name="nalini";
+  emp_desig="android devleoper";
+  
+ }
  int emp_id;
  String emp_name;
  String emp_desig;
@@ -48,7 +54,7 @@ class Employe
 
   emp.emp_getdata();
   emp.emp_setdata();
-  emp.emp_calsal();
+ emp.emp_calsal();
  }
 
 }
